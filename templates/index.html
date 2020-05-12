@@ -1,0 +1,179 @@
+{% extends 'base.html' %}
+
+{% block body_base %}
+
+    {#导航栏#}
+    <ul class="nav nav-tabs nav-justified" style="padding: 20px 0 10px 0">
+        <li class="active"><a href="/">网站首页</a></li>
+        <li><a href="#introduction">企业介绍</a></li>
+        <li><a href="#honor">企业荣誉</a></li>
+        <li><a href="#about">关于我们</a></li>
+        <li><a href="#contact">联系我们</a></li>
+
+</ul>
+
+    {#隐藏导航栏#}
+    <div>
+        <p align="right" style="font-size: smaller" id="yincang"><a style="color: #666">隐藏</a></p>
+    </div>
+
+    {#轮播图#}
+    <div id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active" style="background: #223240">
+                <img src="/static/images/1.jpg" alt="第一张图片">
+                <div class="carousel-caption">
+                    <h3>东明矿业</h3>
+                    <p>呼伦贝尔东明矿业矿区</p>
+                </div>
+            </div>
+            <div class="item" style="background: #F5E4DC">
+                <img src="/static/images/2.jpg" alt="第二张图片">
+            </div>
+            <div class="item" style="background: #DE2A20">
+                <img src="/static/images/3.jpg" alt="第三张图片">
+            </div>
+        </div>
+        <a href="#myCarousel" data-slide="prev" class="carousel-control left">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a href="#myCarousel" data-slide="next" class="carousel-control right">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+
+{#内容：考试资讯#}
+    <div style="margin-top: 10px">
+        <div class="row">
+            <div class="col-md-8">
+    {#            企业介绍#}
+                <div class="row">
+                    <hr style="height: 3px; border: none; border-top: 3px; background-color: #2b669a; margin: 20px 50px 0 15px">
+                    <div style="margin:0 50px 0 15px">
+                        <h2 style="color: #ff9b1b" id="introduction">企业介绍</h2>
+                        <h3>呼伦贝尔东明矿业有限责任公司</h3>
+                        <p>呼伦贝尔东明矿业有限责任公司地处经济发达的内蒙古-呼伦贝尔市,详细地址内蒙古呼伦贝尔市陈巴尔虎旗陈旗巴彦库仁镇镇东，这里交通极为便利。企业注重电子商务的发展，日常管理也注重信息化。</p>
+                        <p>呼伦贝尔东明矿业有限责任公司始终本着：＂诚实经营，道德经商，缔造经典，追求完美＂的经营宗旨。 公司要始终坚持以一流的管理，一流的品质，一流的服务，不断制造经典，不断塑造完美的服务理念，去赢取广大客户和朋友的支持和美誉。呼伦贝尔东明矿业有限责任公司欢迎四方顾客，八方嘉宾，为您的腾达增添光彩。</p>
+                    </div>
+                    <p style="text-align: right; margin-right: 50px"><a href="#introduction" style="color: #ff9b1b">更多>></a></p>
+                </div>
+
+    {#            企业荣誉#}
+                <div class="row">
+                    <hr style="height: 3px; border: none; border-top: 3px; background-color: #2b669a; margin: 20px 50px 0 15px">
+                    <div style="margin:0 50px 0 15px">
+                        <h2 style="color: #ff9b1b" id="honor">企业荣誉</h2>
+
+                        <h3></h3>
+                        <p>（1）2008年3月被陈巴尔虎旗党委、政府评为重大投资贡献奖先进单位；</p>
+                        <p>（2）2008年10月，被内蒙古自治区评为A级信用纳税人先进单位；</p>
+                        <p>（3）2009年2月被陈巴尔虎旗党委、政府评为纳税企业贡献奖先进单位；</p>
+                        <p>（4）2009年2月被内蒙古自治区统战部和内蒙古自治区工商联合会评为支援四川抗震救灾工作先进集体。</p>
+                        <p>公司本着以人为本的原则，为每位员工提供优厚的薪酬福利待遇，建立多元化的激励体系、人才培训计划和职业发展通道，与员工共同发展。</p>
+                        <p style="text-align: right"><a href="#honor" style="color: #ff9b1b">更多>></a></p>
+                        <hr style="height: 1px; border: none; border-top: 1px dashed #a4a39b;" />
+
+                    </div>
+                </div>
+            </div>
+
+    {#        公司详情#}
+            <div class="col-md-4">
+                <div class="row">
+                    <hr style="height: 3px; border: none; border-top: 3px; background-color: #2b669a; margin: 20px 15px 0 50px">
+                    <div style="margin-left: 50px; margin-right: 15px">
+                        <h2 style="color: #ffa72d">东明矿业有限责任公司</h2>
+                            <h3><span class="glyphicon glyphicon-tasks" style="padding-right: 10px;color: #4399e7"></span>-------  呼伦贝尔企业简介</h3>
+
+                            <hr style="height: 1px; border: none; border-top: 1px dashed #a4a39b;" />
+
+                            <div class="list-group">
+                                <a href="#" class="list-group-item ">全称：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="label label-info">呼伦贝尔东明矿业有限责任公司</span></a>
+                                <a href="#" class="list-group-item ">注册地区：<span class="label label-info">内蒙古自治区</span></a>
+                                <a href="#" class="list-group-item ">经营地址：<span class="label label-info">陈巴尔虎旗巴彦库仁镇东明矿区</span></a>
+                                <a href="#" class="list-group-item ">成立时间：<span class="label label-info">2004-8-10</span></a>
+                                <a href="#" class="list-group-item ">所属行业：<span class="label label-info">采矿业</span></a>
+
+                            </div>
+
+                            <hr style="height: 1px; border: none; border-top: 1px dashed #a4a39b;" />
+
+                        <h3><span class="glyphicon glyphicon-check" style="padding-right: 10px;color: #4399e7"></span><a href="#aboutus" style="color: black" id="about">关于我们</a></h3>
+
+                            <hr style="height: 1px; border: none; border-top: 1px dashed #a4a39b;" />
+
+                        <h3><span class="glyphicon glyphicon-phone-alt" style="padding-right: 10px;color: #4399e7"></span><a href="#contactus" style="color: black" id="contact">联系我们</a></h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    {#     其它内容#}
+        <div>
+        <h3>其他</h3>
+        <p><a href="#">国家企业安全信息标准评测</a></p>
+        <div class="row">
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                    <img src="/static/images/other1.jpg" alt="">
+                    <div class="captioin">
+                        <h4>煤矿安全杂志</h4>
+                        <p>煤矿安全杂志电子版、《煤矿安全》杂志(期刊)大全...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                    <img src="/static/images/other2.jpg" alt="">
+                    <div class="captioin">
+                        <h4>煤矿安全规程</h4>
+                        <p>由国家安全生产监督管理总局编写。本书主要介绍...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                    <img src="/static/images/other3.jpg" alt="">
+                    <div class="captioin">
+                        <h4>煤矿安全监察局</h4>
+                        <p>全国煤矿安全监察系统新闻宣传暨办公室主任工作...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                    <img src="/static/images/other4.jpg" alt="">
+                    <div class="captioin">
+                        <h4>煤矿安全评估</h4>
+                        <p>煤矿建设项目安全预评价内容分析煤矿建设项目的规...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                    <img src="/static/images/other5.jpg" alt="">
+                    <div class="captioin">
+                        <h4>矿山生产标准化</h4>
+                        <p>安全生产标准化，是指通过建立安全生产责任制，制...</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+{% endblock body_base %}

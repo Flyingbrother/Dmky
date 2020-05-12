@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/*.dm_heading {*/
+    /*margin: 10px 20px 0 20px;*/
+/*}*/
+
+.dm_heading_p {
+    color: #666;
+}
+
+
+#footer {
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    color: #4e4e4e;
+}
+
+/*资讯详情时间*/
+.information_pdate {
+    text-align: center;
+    background-color: #e6f1f7;
+    margin: 20px 0 20px 0;
+    padding: 15px 0 15px 0;
+}
+
+/*资讯详情内容*/
+.information_pcontent {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    text-indent: 35px;
+}
+
+/*底部样式*/
+.foot_link{text-align:center;margin-top:30px;}
+.foot_link a,.foot_link span{color:#4e4e4e;}
+.foot_link a:hover{color:#ff8800}
+.foot_link span{padding:0 10px}
+
+/*开考提示*/
+#ansConfirm{ width:640px; position:fixed; left:50%; top:50%; margin-left: -320px; margin-top: -145px; text-align: center; background:#fff; z-index: 500000; border:1px solid #ddd; border-radius: 10px; overflow:hidden;}
+#ansConfirm h5{ height:58px;  border-bottom:1px solid #ddd; line-height: 58px; text-align: center;background:#efefef;font-size: 20px;  font-family: 'Microsoft YaHei';}
+#ansConfirm .msgbox{ padding:30px 56px 30px 44px; text-align: left;}
+#ansConfirm  .msgbox p{font-size: 16px; line-height: 24px;margin-bottom: 10px;}
+#ansConfirm .confirBox{ height:78px; border-top:1px solid #ddd; padding-top:16px;}
+#ansConfirm .confirmBtn{ display:inline-block; width:120px; height:46px; background:#00baf2; text-align: center; line-height: 46px;font-size: 18px;  font-family: 'Microsoft YaHei'; color:#fff;cursor: pointer;padding:0px;}
+
+
+/*小屏幕（平板、大于等于768px）*/
+@media (min-width: 768px) {
+        /*<div class="col-md-3" style="width:200px;height:200px;position: */
+/*fixed;top:0px;right:0px;bottom:0px;margin: auto;">*/
+
+}
+
+
+/*中等屏幕（桌面显示器、与等于992px）*/
+@media (min-width: 992px) {
+
+}
+
+/*大屏幕（大桌面显示器、大于等于1200px）*/
+@media (min-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
